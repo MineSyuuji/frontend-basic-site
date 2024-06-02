@@ -1,6 +1,6 @@
 :root {
-  --font-family-anton: "Anton", sans-serif;
-  --font-family-noto-sans-jp: "Noto Sans JP", sans-serif;
+  --font-family-heading: "Anton", sans-serif;
+  --font-family-body: "Noto Sans JP", sans-serif;
 
   --color-white: #fffefc;
   --color-black: #020911;
@@ -77,7 +77,7 @@ img {
   margin-top: 80px;
 }
 
-.hero::before {
+.hero::after {
   content: "";
   position: absolute;
   top: 0;
