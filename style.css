@@ -360,6 +360,13 @@ a {
   width: 40px;
   height: 40px;
   flex-shrink: 0;
+  background: url(./img/arrow-right.svg);
+}
+
+@media (max-width: 800px) {
+  .courses-block-container {
+    width: 100%;
+  }
 }
 
 @media (max-width: 750px) {
