@@ -150,6 +150,8 @@ a {
 .about-container {
   display: flex;
   padding: 0px 40px;
+  max-width: 880px;
+  margin: 0;
   flex-direction: column;
   align-items: center;
   gap: 40px;
@@ -176,7 +178,6 @@ a {
 
 .about-body {
   display: flex;
-  width: 800px;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -213,6 +214,7 @@ a {
   gap: 30px;
   align-self: stretch;
   background-color: var(--color-background-navy);
+  margin: 0px;
 }
 
 .courses-container {
@@ -224,7 +226,7 @@ a {
 }
 
 .courses-section-title {
-  color: var(--white, #fffefc);
+  color: var(--color-white);
   font-family: var(--font-family-heading);
   font-size: 32px;
   font-style: normal;
@@ -358,6 +360,14 @@ a {
   width: 40px;
   height: 40px;
   flex-shrink: 0;
+  background: url(./img/arrow-right.svg);
+  background-size: 100% 100%;
+}
+
+@media (max-width: 800px) {
+  .courses-block-container {
+    width: 100%;
+  }
 }
 
 @media (max-width: 750px) {
