@@ -361,6 +361,7 @@ a {
   height: 40px;
   flex-shrink: 0;
   background: url(./img/arrow-right.svg);
+  background-size: 100% 100%;
 }
 
 @media (max-width: 800px) {
