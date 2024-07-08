@@ -103,11 +103,79 @@
             </div>
           </a>
         </div>
-        <a class="courses-button" href="#">
-          <div class="courses-button-text">すべてのコースを見る</div>
-          <div class="courses-button-arrow"></div>
+        <a class="section-button courses-button" href="#">
+          <div class="section-button-text">すべてのコースを見る</div>
+          <div class="section-button-arrow"></div>
         </a>
       </div>
     </section>
+    <section class="signup">
+      <div class="signup-container">
+        <h2 class="signup-title">Let's Try!</h2>
+        <p class="signup-text">
+          Grand
+          Playersでは、ご利用登録いただけた方に対し、３レッスン分の無料枠をプレゼントいたします！<br />
+          今すぐレッスンを初めて、”Grand”なプレイヤーを目指しましょう！<br />
+          お申し込みは下記フォームからどうぞ！
+        </p>
+        <form class="signup-form" action="">
+          <div class="signup-input-container">
+            <div class="signup-input-block">
+              <label class="signup-label" for="username">お名前</label
+              ><input
+                class="signup-input"
+                type="text"
+                id="username"
+                name="username"
+                placeholder="エドワード ヴァン 太郎"
+              />
+            </div>
+
+            <div class="signup-input-block">
+              <label class="signup-label" for="email">メールアドレス</label
+              ><input
+                class="signup-input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="grand.players@example.com"
+              />
+            </div>
+
+            <div class="signup-input-block">
+              <label class="signup-label" for="guitar-experience"
+                >ギター歴(年)</label
+              ><input
+                class="signup-input"
+                type="number"
+                id="guitar-experience"
+                name="guitar-experience"
+                placeholder="3"
+                min="0"
+              />
+            </div>
+
+            <div class="signup-input-block">
+              <label class="signup-label" for="ambition"
+                >意気込みをどうぞ！</label
+              ><textarea
+                class="signup-textarea"
+                id="ambition"
+                name="ambition"
+                placeholder="イカすギターソロをかましてモテた～い！"
+                rows="5"
+              ></textarea>
+            </div>
+          </div>
+          <button class="section-button signup-button">
+            <div class="section-button-text">送信する</div>
+            <div class="section-button-arrow"></div>
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-copyright">&copy; 2023 GrandPlayers</div>
+    </footer>
   </body>
 </html>
